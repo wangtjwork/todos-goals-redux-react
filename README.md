@@ -1,4 +1,4 @@
-#Properly Structured Redux-React App
+# Properly Structured Redux-React App
 
 ## Description
 

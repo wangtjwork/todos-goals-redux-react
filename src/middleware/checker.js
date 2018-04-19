@@ -1,7 +1,7 @@
 import { ADD_TODO } from '../actions/todos'
 import { ADD_GOAL } from '../actions/goals'
 
-export default const checker = (store) => (next) => (action) => {
+export default (store) => (next) => (action) => {
   if (action.type === ADD_TODO &&
     action.todo.name.toLowerCase().includes('bitcoin')
   ) {
